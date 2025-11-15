@@ -1,6 +1,6 @@
 # PostgreSQL Performance Analyzer
 
-[![CI](https://github.com/YOUR_USERNAME/pg-perf-analyzer/workflows/CI/badge.svg)](https://github.com/YOUR_USERNAME/pg-perf-analyzer/actions)
+[![CI](https://github.com/jeanpaolo/PG-Analyzer/workflows/CI/badge.svg)](https://github.com/jeanpaolo/PG-Analyzer/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Any-blue.svg)](https://www.postgresql.org/)
