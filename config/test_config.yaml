@@ -1,0 +1,32 @@
+# Test configuration for PostgreSQL Performance Analyzer
+
+database:
+  host: localhost
+  port: 5432
+  database: testdb
+  user: testuser
+  password: testpass
+  sslmode: prefer
+
+ai:
+  # Use 'local' for Ollama or 'cloud' for OpenAI/Gemini
+  provider: cloud
+  
+  # Local AI configuration (Ollama)
+  local:
+    model: llama2
+    host: http://localhost:11434
+    temperature: 0.7
+    max_tokens: 2000
+  
+  # Cloud AI configuration
+  cloud:
+    provider: openai  # openai, gemini, anthropic
+    model: gpt-4.1-mini
+    temperature: 0.7
+    max_tokens: 2000
+    # api_key: set via OPENAI_API_KEY environment variable
+
+output:
+  format: markdown  # markdown, html, json
+  path: report.md

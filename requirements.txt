@@ -1,0 +1,21 @@
+# Database connectivity
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+
+# AI/ML integrations
+openai==1.51.0
+ollama==0.3.3
+
+# Configuration and CLI
+pyyaml==6.0.1
+python-dotenv==1.0.0
+click==8.1.7
+rich==13.7.0
+
+# Report generation
+jinja2==3.1.2
+markdown==3.5.1
+weasyprint==60.1
+
+# Utilities
+tabulate==0.9.0

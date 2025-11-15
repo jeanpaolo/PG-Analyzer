@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Reports (generated)
+report*.md
+test_*.md
+analysis_*.md
+*.html
+output*.json
+
+# Keep documentation
+!README.md
+!QUICKSTART.md
+!LICENSE
+!DEPLOYMENT.md
+!PROJECT_SUMMARY.md
+!NAMING_STANDARDS_ENHANCEMENT.md
+!docs/*.md
+
+# Configuration
+config.yaml
+.env
+*.local
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+Thumbs.db
+.DS_Store
